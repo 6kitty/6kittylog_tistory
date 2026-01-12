@@ -5,7 +5,11 @@ import Parser from "rss-parser";
  * README.MD에 작성될 페이지 텍스트
  * @type {string}
  */
-let text = `# tistory 백업 글 모음 `;
+let text = `# tistory 백업 글 모음
+
+tistory: [6kittylog.tistory.com](https://6kitt-hack.tistory.com/)
+
+`;
 
 // rss-parser 생성
 const parser = new Parser({
